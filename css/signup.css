@@ -1,0 +1,77 @@
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+ }
+
+ .container {
+     max-width: 400px;
+     margin: 50px auto;
+     background: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="password"],
+ input[type="submit"] {
+     width: 100%;
+     padding: 10px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     transition: border-color 0.3s ease;
+ }
+
+ input[type="text"]:focus,
+ input[type="email"]:focus,
+ input[type="password"]:focus {
+     border-color: #4CAF50;
+ }
+
+ input[type="submit"] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     width: 100%;
+ }
+
+ input[type="submit"]:hover {
+     background-color: #45a049;
+ }
+
+ .options {
+     text-align: center;
+ }
+
+ .options a {
+     text-decoration: none;
+     color: #666;
+ }
+
+ input[type="text"]::placeholder,
+ input[type="email"]::placeholder,
+ input[type="password"]::placeholder {
+     transition: transform 0.3s ease-out;
+ }
+
+ input[type="text"]:focus::placeholder,
+ input[type="email"]:focus::placeholder,
+ input[type="password"]:focus::placeholder {
+     transform: translateY(-15px);
+     font-size: 0.8em;
+     color: #aaa;
+ }
